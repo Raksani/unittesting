@@ -1,4 +1,5 @@
 <h1>Test Cases</h1>
+<h4>Count Distinct Elements in a List</h4>
 
 |Test cases|Result|
 |:--------:|:----:|
@@ -11,5 +12,14 @@
 |testNullList|The list is null. It has error.|
 
 
+<h4>Binary Search</h4>
+
+|Test cases|Result|
+|:--------:|:----:|
+|testNullElement|If value to find element is Null, It should throw exception.|
+|testNotInArray|If value to find element does not match with any elements in the array, It should return -1.|
+|testInIntArray|In case of integer array, It will return index of given value.|
+|testInCharArray|Also for character array, It will return index of given character.|
+|testSort|Make sure the array is already sorted before searching.|
 
 
